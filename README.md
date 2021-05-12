@@ -19,4 +19,7 @@ randomly one of six different positions (3 situated in the right visual field an
 specified in the result document for each trial. Before the experiment, experimenter has to tell participants to place their head at the center and fixed the ready signal ("ready" 
 write in white letters) between each trials.
 
-When a block is done a cvs file is created which has in its title the number of the block and the hand used in it. It contains the position of the stimulus, reaction time and the waiting time.
+When a block is done a cvs file is created which has in its title the number of the block and the hand used in it. It contains the position of the stimulus, reaction time and the 
+waiting time.
+
+Given more time I would have liked to add a way of adding one trial to the block each time a response is discarded (because it's anticipartory or too long) in order to have a consistent number (15) of valid trials between each subjects. I would have also liked to make the code cleaner it's a never ending task.
