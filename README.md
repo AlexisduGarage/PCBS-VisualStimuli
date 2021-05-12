@@ -2,7 +2,7 @@ The point of the project is to see if there is a difference in response to visua
 
 We made a two block experiment of 15 trial each. In the first block, the subject use its right hand to respond in the second block the left. The python project has been designed in order to add as many blocks as we want in the order that we want. We just have to specify the hand used in the block and the number of the block and it's order (1, 2, 3...) for the data treatment. Our displayed stimulus will be a square patch of light, with one square degree in area, that will be flashed on different points of the screen.
 
-The stimulus is a 80 by 120 pixel white rectangle. The duration of the stimulus is changeable and has been fixed in this version to 32 msec. At each trial the stimulus take randomly one of six different positions (3 situated in the right visual field and 3 situated in the left).
+The stimulus is a 80 by 120 pixel white rectangle. The duration of the stimulus is changeable and has been fixed in this version to 32 msec. At each trial the stimulus take randomly one of six different positions (3 situated in the right visual field and 3 situated in the left). The position of the stimulus relatively to the center of the screen is specified in the result document for each trial. Before the experiment, experimenter has to tell participants to place their head at the center and fixed the ready signal ("ready" write in white letters) between each trials.
 
 A warning "ready" signal, delivered to the subject visually (becaus ewe don't have an intercome), preceded the stimulus. The duration of the fore-period was randomly varied with a range of 2 to 3 sec.
 
