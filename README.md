@@ -1,4 +1,6 @@
-The point of the project is to reproduce the experiment of Berlucchi and colleague. Our displayed stimulus will be a square patch of light, with one square degree in area, that will be flashed on different points of the screen.
+The point of the project is to see if there is a difference in response to visual information in fonction of the position of these visual information in our visual field and of the hand that we use to respond. We know that the central connexions of the retinae are such that each half of the visual field is projected on to the cortex of the opposite hemisphere (the left part of the visual field is projected on the right hemisphere of the cortex). We also know that the movements of each hand are to a major extent controlled by the opposite motor cortex. So for example, we can expecte that responding to visual information with the right hand is faster when the stimuli is situated in the right part of the visual field than the left. In order to test that we designed the following experience.
+
+In order to test that we made a two block experiment. In the first block, Our displayed stimulus will be a square patch of light, with one square degree in area, that will be flashed on different points of the screen.
 
 We will design one session of the original experience (which had 3 of them). One session is composed of 4 blocks, of 15 trials each, with one stimulus display at each trial.
 
