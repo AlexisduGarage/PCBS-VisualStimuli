@@ -1,7 +1,7 @@
 import random
 import pygame
 
-N_TRIALS = 2  # total number of trials
+N_TRIALS = 15 
 MIN_WAIT_TIME = 2000
 MAX_WAIT_TIME = 3000
 MIN_RESPONSE_DELAY = 150
@@ -10,8 +10,6 @@ DURATION_STIM = 32
 
 def create_window():
     screen = pygame.display.set_mode((1280, 960))
-    # screen = pygame.display.set_mode((0, 0),
-    #                                  pygame.DOUBLEBUF | pygame.FULLSCREEN)
     pygame.mouse.set_visible(False)
     return screen
 
@@ -55,12 +53,12 @@ def wait_for_keypress():
 
 def measure_reaction_time(max_response_delay, min_response_delay):
     button_pressed = False
-    no_response= "NR" #No response
+    no_response= "NR"
     escape = False
     response_delay_elapsed = False
     anticipatory_response = False
     reaction_time = 0
-    pygame.event.clear()  # anticipations will be ignored
+    pygame.event.clear()  
     t0 = pygame.time.get_ticks()
 
     while not button_pressed and not escape and not response_delay_elapsed:
@@ -91,7 +89,7 @@ def measure_reaction_time(max_response_delay, min_response_delay):
 def save_data(waiting_times, position, reaction_times, filename):
     with open(str(filename), 'wt') as f:
         f.write('Wait,Position,RT\n')
-        for wt, posit, rt in zip(waiting_times, position,reaction_times): #Se renseigner sur la doc du zip
+        for wt, posit, rt in zip(waiting_times, position,reaction_times): 
             f.write(f"{wt},{posit},{rt}\n")
 
 def block(block_number, hand):
@@ -147,5 +145,3 @@ block(1, "right")
 block(2, "left")
 
 pygame.quit()
-#block("right")
-#block("left")
